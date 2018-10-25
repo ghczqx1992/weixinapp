@@ -1,0 +1,20 @@
+<view class='container'>
+  <view class='search-area'>
+    <input bindinput='inputing' placeholder='请输入搜索关键字' value='{{value}}'></input>
+    <button type='primary' size='mini' bindtap='bindSearch' loading='{{loading}}'>立即搜索</button>
+  </view>
+  <view class='songlist'>
+    <block wx:for='{{list}}' wx:key='{{index}}'>
+      <view class='songitem'>
+        <navigator url='/pages/play/play?songid={{item.songid}}' class='song-play'>
+          <image src='/images/play.png'></image>
+        </navigator>
+        <view bindtap="go_to_site_play" data-cid="{{ item.songid }}"  class='song-detail'>
+          <view class='song-title'>{{item.songname}}</view>
+          <view class='song-subtitle'>{{item.singername}}-{{item.second}}</view>
+        </view>
+      </view>
+    </block>
+  </view>
+  <loading hidden='{{!loading}}'>正在搜索音乐....</loading>
+  </view>

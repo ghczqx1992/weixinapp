@@ -1,0 +1,63 @@
+.container{
+  padding: 0px;
+}
+
+.search-area{
+  background: #f4f4f4;
+  padding: 1rem 0.5rem;
+  width: 100%;
+}
+
+.search-area input{
+  background: #fff;
+  border-radius: 3px;
+  height: 2rem;
+  line-height: 2rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.songlist{
+  width: 100%;
+  overflow-y: visible;
+  overflow-x: hidden;
+  font-size: 0.8rem;
+}
+.songitem{
+  height: 3rem;
+  line-height: 1.5rem;
+  display: flex;
+  border-bottom: 1px solid #eee;
+  padding: 10rpx;
+  width: 100%;
+}
+
+.songitem:active{
+  background: #eee;
+}
+
+.song-play{
+  width: 10%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.song-play image{
+  line-height: 3rem;
+  width: 50rpx;
+  height: 50rpx;
+  padding-top: 13px;
+}
+
+.song-detail{
+  white-space: nowrap;
+}
+
+.song-title{
+  font-size: 1rem;
+}
+
+.song-subtitle{
+  color: #555;
+}

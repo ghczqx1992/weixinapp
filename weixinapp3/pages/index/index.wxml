@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='rank-list'>
+    <block wx:for="{{ranks}}" wx:key="{{item.key}}">
+      <view class='rank-item'>
+        <view bindtap="go_to_site_list" data-cid="{{ item.type }}" class='text'>
+          {{item.text}}
+        </view>
+        <view class='arrow'></view>
+      </view>
+    </block>
+  </view>
+</view>
