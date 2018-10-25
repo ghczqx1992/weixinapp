@@ -3,6 +3,8 @@
 
 1、首页是选择音乐类型
 
+[https://github.com/ghczqx1992/weixinapp/blob/master/weixinapp3/doc/images/remd.png]
+
 2、tabBar 选择音乐类型进入三个tabBar
 
 3、一菜单 根据选择的类型显示播放音乐的列表
