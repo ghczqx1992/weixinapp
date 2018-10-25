@@ -3,7 +3,7 @@
 
 1、首页是选择音乐类型
 
-[https://github.com/ghczqx1992/weixinapp/blob/master/weixinapp3/doc/images/remd.png]
+![https://github.com/ghczqx1992/weixinapp/blob/master/weixinapp3/doc/images/remd.png]
 
 2、tabBar 选择音乐类型进入三个tabBar
 
