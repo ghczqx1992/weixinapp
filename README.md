@@ -20,3 +20,5 @@
 
 ![Image discription](https://github.com/ghczqx1992/weixinapp/blob/master/weixinapp3/doc/images/search.PNG)
 
+
+你好，欢迎你访问!
